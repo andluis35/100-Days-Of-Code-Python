@@ -32,7 +32,7 @@ ROCK = 0
 PAPER = 1
 SCISSORS = 2
 
-computer_choice = random.randint(ROCK, SCISSORS)
+computer_choice = random.randint(0, 2)
 player_choice = int(input("What do you choose?\n[0] Rock\n[1] Paper\n[2] Scissors\nR: "))
 
 print("\n---------------------------------------------------------------------------\n")
